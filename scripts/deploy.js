@@ -8,7 +8,11 @@ const main = async () => {
       'https://lh3.googleusercontent.com/rgfZYZOiyzQ3Da8gV9p4n6qNaXhqcpQhRaV_hvvAU2U34CxOAxi9w35VPtI1lVOXa0RbT-icvM_r7-7v10sDG_GwzlW9V4w2PRUdl38=w600',
     ],
     [100, 200, 300], // HP values
-    [100, 50, 25] // Attack damage values
+    [100, 50, 25], // Attack damage values
+    'TheVoid', // Boss name
+    'https://lh3.googleusercontent.com/jw-AdOV8WDnFmwmB804h9uneACbraVbNMKKHdOMscRaYKY_JIe8k6nD8BMRho7421_1V3R3cxocntF5CVYfEhxn13PT58Pyuz8ob=w600', // Boss image
+    10000, // Boss hp
+    50 // Boss attack damage
   );
   await gameContract.deployed();
   console.log('Contract deployed to:', gameContract.address);
