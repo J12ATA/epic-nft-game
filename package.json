@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/J12ATA/epic-nft-game/issues"
   },
-  "homepage": "https://github.com/J12ATA/epic-nft-game#readme"
+  "homepage": "https://github.com/J12ATA/epic-nft-game#readme",
+  "devDependencies": {
+    "hardhat": "^2.6.8"
+  }
 }
