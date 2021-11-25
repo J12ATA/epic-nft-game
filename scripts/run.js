@@ -3,14 +3,14 @@ const main = async () => {
   const gameContract = await gameContractFactory.deploy(
     ['RedMoons', 'MetaCyclops', 'Hypnosis'], // Names
     [
-      'https://lh3.googleusercontent.com/w3_ePnu29gFaCJe7SsIvei1jK8XtwE7nSN19v5KSMn3dTi55BDfkLgyGm-_LAprXlLgFBC3GxeQB8kBqwjx9e5xYQVOp1D9WznCKyA=w600', // Images
-      'https://lh3.googleusercontent.com/uaQG3ho7915lI9ICAmCLMTZctvd0L6mwhirNTP77CEtqZXaPDRDGXgWSeZoIv3uy6kHy8PJqTpetEyOoNYF1_SKgPlRTvuyoZAF-Gg=w600',
-      'https://lh3.googleusercontent.com/rgfZYZOiyzQ3Da8gV9p4n6qNaXhqcpQhRaV_hvvAU2U34CxOAxi9w35VPtI1lVOXa0RbT-icvM_r7-7v10sDG_GwzlW9V4w2PRUdl38=w600',
+      'QmaSMMvGZQXDzJhaYvh38r9xbNHUY92ML2YPxdRwcmaGvc', // Images
+      'QmNbJn9vxfBznunXu3CfJFXNGMziF2f1JpMNGdcPNwXpr2',
+      'QmNjB5nQHFKinnXn2oEr1xHShriu58aqG9ccQ677tnERKj',
     ],
     [100, 200, 300], // HP values
     [100, 50, 25], // Attack damage values
     'TheVoid', // Boss name
-    'https://lh3.googleusercontent.com/jw-AdOV8WDnFmwmB804h9uneACbraVbNMKKHdOMscRaYKY_JIe8k6nD8BMRho7421_1V3R3cxocntF5CVYfEhxn13PT58Pyuz8ob=w600', // Boss image
+    'QmReruihKBBVZjLJp7yRrZsUR6XiYfpWqu67jDDRtLNfU6', // Boss image
     10000, // Boss hp
     50 // Boss attack damage
   );
